@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types'
- 
+import styled from 'styled-components'
+
+const CardLabel = styled.span``
 function Card({ label, title, picture }) {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', padding: 15 }}>
